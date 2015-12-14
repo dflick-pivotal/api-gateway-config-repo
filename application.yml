@@ -1,6 +1,3 @@
-configserver: true
-bus: false
-
 eureka:
   instance:
     hostname: localhost
