@@ -1,5 +1,5 @@
 configserver: true
-bus: true
+bus: false
 
 eureka:
   instance:
