@@ -1,3 +1,6 @@
+configserver: true
+bus: true
+
 eureka:
   instance:
     hostname: localhost
