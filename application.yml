@@ -12,14 +12,6 @@ eureka:
 
 ---
 spring:
-  profiles: xyz
-eureka:
-  instance:
-    hostname: ${vcap.application.uris[0]}
-    nonSecurePort: 80
-
----
-spring:
   profiles: cloud
 spring:
   cloud:
@@ -28,3 +20,11 @@ spring:
 eureka:
   instance:
      nonSecurePort: 80
+     
+---
+spring:
+  profiles: xyz
+eureka:
+  instance:
+    hostname: ${vcap.application.uris[0]}
+    nonSecurePort: 80
