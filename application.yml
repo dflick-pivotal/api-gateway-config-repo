@@ -13,14 +13,13 @@ eureka:
 ---
 spring:
   profiles: cloud
-spring:
   cloud:
     services:
       registrationMethod: route
 eureka:
   instance:
      nonSecurePort: 80
-     
+
 ---
 spring:
   profiles: xyz
