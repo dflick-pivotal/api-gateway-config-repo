@@ -1,6 +1,0 @@
-zuul:
-  routes:
-    resource2: /resource/**
-#    resource:
-#      path: /resource/**
-#      url: http://localhost:9000
