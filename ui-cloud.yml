@@ -6,3 +6,6 @@ zuul:
     resource:
       path: /resource/**
       serviceId: resource
+
+ribbon:
+  IsSecure: true
