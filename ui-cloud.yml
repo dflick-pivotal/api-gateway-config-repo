@@ -9,3 +9,7 @@ zuul:
 
 ribbon:
   IsSecure: true
+
+management:
+  security:
+    enabled: false
