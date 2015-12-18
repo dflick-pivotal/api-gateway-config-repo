@@ -18,7 +18,8 @@ spring:
       registrationMethod: route
 eureka:
   instance:
-     nonSecurePort: 80
+    hostname: ${vcap.application.uris[0]}
+    nonSecurePort: 80
 
 ---
 spring:
