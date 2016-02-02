@@ -6,13 +6,6 @@ zuul:
     resource:
       path: /resource/**
       url: http://localhost:9000
-      
-ribbon:
-  IsSecure: false
-
-management:
-  security:
-    enabled: false
 #   resource:
 #      path: /resource/**
 #      url: http://df-resource.cfapps.pez.pivotal.io
