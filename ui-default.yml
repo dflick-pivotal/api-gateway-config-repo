@@ -16,5 +16,3 @@ zuul:
 #      path: /resource/**
 #      url: http://df-resource.cfapps.pez.pivotal.io
 #    resource: /resource/**
-ribbon:
-  IsSecure: false
