@@ -3,4 +3,4 @@ security:
     password: password
 zuul:
   routes:
-    resource: /resources/**   
+    resource: /resource/**   
