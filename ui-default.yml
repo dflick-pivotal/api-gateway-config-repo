@@ -1,6 +1,3 @@
-security:
-  user:
-    password: password
 zuul:
   routes:
     resource: /resource/**   
