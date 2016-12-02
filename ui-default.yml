@@ -2,10 +2,13 @@ security:
   user:
     password: password
 zuul:
-  routes: 
-    resource:
-      path: /resource/**
-      url: http://localhost:9000
+  routes:
+    resource: /resources/**   
+#zuul:
+#  routes: 
+#    resource:
+#      path: /resource/**
+#      url: http://localhost:9000
 #   resource:
 #      path: /resource/**
 #      url: http://df-resource.cfapps.pez.pivotal.io
