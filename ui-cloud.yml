@@ -10,18 +10,3 @@ ribbon:
 management:
   security:
     enabled: false
-    
-security:
-  user:
-    password: password
-  oauth2:
-    client:
-      clientId: 8f2d1942e5ac30e585d7
-      clientSecret: 9d178bcea2f3cc284673dcb17678536574552393
-      accessTokenUri: https://github.com/login/oauth/access_token
-      userAuthorizationUri: https://github.com/login/oauth/authorize
-      tokenName: oauth_token
-      authenticationScheme: query
-      clientAuthenticationScheme: form
-    resource:
-      userInfoUri: https://api.github.com/user
